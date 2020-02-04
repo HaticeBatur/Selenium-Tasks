@@ -13,7 +13,7 @@ public class VerifyCheckBoxClick extends CommonMethodsss{
  * the first link is clickable and the second checkbox is already checked by default
  */
 	public static void main(String[] args) throws InterruptedException {
-		setUp("chrome", Constants.welcomeToTheInternetUrl);
+		setUp("chrome", Constants.welcomeToTheInternet_URL);
 		driver.findElement(By.linkText("Checkboxes")).click();
 		Thread.sleep(2000);
 		WebElement chkBox2=driver.findElement(By.xpath("//input[@type='checkbox'][2]"));

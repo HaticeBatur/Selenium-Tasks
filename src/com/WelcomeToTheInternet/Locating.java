@@ -8,7 +8,7 @@ import com.utils.Constants;
 
 public class Locating extends CommonMethodsss{
 	public static void main(String[] args) {
-		setUp("chrome", Constants.welcomeToTheInternetUrl);
+		setUp("chrome", Constants.welcomeToTheInternet_URL);
 //		WebElement partialLinkText=driver.findElement(By.partialLinkText("Check"));
 //		partialLinkText.click();
 //		driver.findElement(By.linkText("Dropdown")).click();

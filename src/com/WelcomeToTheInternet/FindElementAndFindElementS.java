@@ -10,7 +10,7 @@ import com.utils.Constants;
 
 public class FindElementAndFindElementS extends CommonMethods{
 	public static void main(String[] args) {
-		setUp("chrome", Constants.welcomeToTheInternetUrl);
+		setUp("chrome", Constants.welcomeToTheInternet_URL);
 		//driver.findElement(By.linkText("Checkboxes")).click();
 		driver.findElements(By.linkText("Checkboxe"));
 		List<WebElement> allLinks=driver.findElements(By.tagName("a"));

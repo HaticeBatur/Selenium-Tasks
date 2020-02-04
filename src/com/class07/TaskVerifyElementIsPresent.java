@@ -19,7 +19,7 @@ Verify element with text “Hello World!” is displayed
 Close the browser
  */
 	public static void main(String[] args) {
-		setUp("chrome", Constants.welcomeToTheInternetUrl);
+		setUp("chrome", Constants.welcomeToTheInternet_URL);
 		driver.findElement(By.linkText("Dynamic Loading")).click();
 		driver.findElement(By.partialLinkText("Example 1:")).click();
 		driver.findElement(By.xpath("//button[text()='Start']")).click();

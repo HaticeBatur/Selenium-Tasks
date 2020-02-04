@@ -13,7 +13,7 @@ public class TaskLocating extends CommonMethodsss{
  * PartialLinkText only then click on the link
  */
 	public static void main(String[] args) throws InterruptedException {
-		setUp("chrome", Constants.welcomeToTheInternetUrl);
+		setUp("chrome", Constants.welcomeToTheInternet_URL);
 		Thread.sleep(2000);
 		driver.findElement(By.partialLinkText("A/B")).click();
 		Thread.sleep(2000);

@@ -1,9 +1,9 @@
 package com.utils;
 
-import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchFrameException;
 import org.openqa.selenium.WebDriver;
@@ -121,6 +121,18 @@ public class CommonMethods {
 		}catch(NoSuchFrameException e) {
 			System.out.println("Frame is not present");
 		}
+	}
+	public static void jsClick(WebElement element) {
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();",element);
+	}
+	public static void scrollIntielelement(WebElement element) {
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0]scrollIntoWiev(true)", element);
+	}
+	public static void scroll(int pixel) {
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy(0,"+pixel+")");
 	}
 	
 }

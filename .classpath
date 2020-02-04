@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="C:/Users/Owner/Documents/InstallationFiles/JarFiles/Selenium/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Owner/Documents/InstallationFiles/JarFiles/Selenium/client-combined-3.141.59-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Owner/Documents/InstallationFiles/JarFiles/Selenium/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Documents/InstallationFiles/JarFiles/Common IO/commons-io-2.6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
